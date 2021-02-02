@@ -1,0 +1,156 @@
+/*Universal Styles*/
+body {
+    font-family: "Poppins", sans-serif;
+    color: #242424;
+}
+
+button{
+    background-color: #0074D9;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    margin: 10px 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.95rem;
+}
+
+/*Header Styles*/
+header {
+    padding: 15px 0px;
+    height: 70px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header img  {
+    float: left;
+}
+
+header button {
+    float: right;
+}
+
+#extranet {
+    background-color:#242424;
+    color: white;
+}
+
+nav {
+    border-top: 1px solid rgb(139,139,139);
+    padding: 5px 0;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 30px;
+}
+
+/*Main Banner Styles*/
+
+main {
+    background-image: url("https://www.roborigger.com.au/wp-content/uploads/2020/07/Slider-1-1.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    height: 350px;
+    margin: 0;
+}
+
+.hero {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-header {
+    padding: 50px 35px;
+    width: 450px;
+    text-align: left;
+    color: white;
+}
+
+.hero-header h1 {
+    font-size: 2.5rem;
+}
+
+/*Flexbox Style*/
+
+.sections {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.flex-block h3 {
+    text-align: center;
+    padding: 0 15px;
+}
+
+.product-container img {
+    width: 262.5px;
+    height: 212.9px;
+    margin: 0 20px;
+}
+
+.project-container img {
+    width: 360px;
+    height: 263.78px;
+    margin: 0 20px;
+}
+
+/*Footer Grid Style*/
+
+footer {
+    background-color: #191919;
+    color: #a8a8a8;
+    padding: 20px;
+    text-align: right;
+    font-size: 1rem;
+}
+
+footer h1, h2, h3 {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-grid {
+    display: grid;
+    height: 200px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 40px;
+    grid-column-gap: 40px;
+    text-align: left;
+    border-bottom: 1px solid #a8a8a8;
+}
+
+.about-us {
+    grid-column: 1 / 2;
+}
+
+.quick-products {
+    grid-column: 2 / 3;
+}
+
+.quicklinks {
+    grid-column: 3 / 4;
+}
+
+.contact-us {
+    grid-column: 4 / span 1;
+}
